@@ -1,0 +1,17 @@
+.btn {
+
+  border-radius:0;
+  text-transform: uppercase;
+
+}
+
+.btn-primary {
+  background:$primary;
+  border-color:$primary;
+  box-shadow: none;
+  outline:none;
+  &:hover, &:active, &:focus {
+    background:darken($primary,10%);
+    border-color:darken($primary,10%);
+  }
+}

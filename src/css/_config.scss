@@ -1,0 +1,42 @@
+// Colours
+$green: #0cd07e;
+$pink: #da1b60;
+$primary: $green;
+$secondary: #42e5f4;
+$tertiary:#b285a4;
+$text-color:#333;
+$hover-color:$primary;
+$bg: #eee;
+$muted: #777;
+
+// Fonts
+$font-body: 'Roboto', sans-serif;
+$font-headers: 'Abril Fatface', cursive;
+$transition: 0.5s ease-out;
+
+// Boilerplate code
+
+.ir {
+
+  display:block;
+  text-indent:200%;
+  white-space:nowrap;
+  overflow:hidden;
+
+}
+
+* {
+  box-sizing:border-box;
+}
+
+img {
+
+  max-width:100%;
+  height:auto;
+
+}
+
+::selection {
+  background: $secondary;
+  color:#fff;
+}
