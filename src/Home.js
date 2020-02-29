@@ -7,9 +7,7 @@ export default function Home(){
     return (
         <div>
             <Header/>
-
             <main>
-
                 <div className="container">
                     <div className="content">
                         <div className="row">
@@ -40,15 +38,10 @@ export default function Home(){
                                     my music? <i className="fa fa-music"></i> <br/>Check it out at <a
                                         href="https://colbygarland.ca/music"
                                         target="_blank">colbygarland.ca/music</a> or on Spotify, Apple Music, etc.</p>
-                                <div className="aos-init" data-aos="fade-up" data-aos-delay="1200">
-                                    <script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script>
-
-                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
             </main>
         </div>
     );

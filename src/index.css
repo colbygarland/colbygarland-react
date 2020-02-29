@@ -8265,6 +8265,10 @@ a:hover, a:active, a:focus {
     text-decoration: none;
 }
 
+.banner-link a:after {
+    display: none;
+}
+
 p {
     line-height: 1.8;
     font-weight: 300;

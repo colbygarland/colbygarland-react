@@ -45,6 +45,15 @@ a {
 
 }
 
+.banner-link {
+    a {
+
+        &:after {
+            display:none;
+        }
+    }
+}
+
 p {
   line-height:1.8;
   font-weight:300;
